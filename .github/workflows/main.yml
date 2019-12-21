@@ -9,7 +9,7 @@ jobs:
         id: hello
       - name: Checkout
         uses: actions/checkout@v1
-   uses: ./
+        uses: ./
         with:
           who-to-greet: "Scott"
       # Use the output from the `hello` step
